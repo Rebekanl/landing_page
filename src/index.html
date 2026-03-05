@@ -5,10 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>landing page - lolla</title>
     <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    <h1>olá</h1>
-    <img src="./images/hero.jpg" alt="lolla">
+    <header class="hero">
+        <div class="container">
+            <p>
+                O maior festival de musica da America Latina em: <br><span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localizaçao</b>
+                        Hipodromo de San Isidro
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        13, 14 e 15 de Março de 2026
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">Garanta o seu Ticket</a>
+            </div>
+        </div>
+    </header>
+    <section class="event event--lineup">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Lineup</h2>
+                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ratione enim inventore cum voluptates odio minus nihil voluptate. Nulla, fugit quo minus sed nostrum amet? Cum odio consectetur nam totam?</p>
+            </div>
+            <img class="event__image" src="./images/img1.jpg">
+        </div>
+    </section>
+    <section class="event event--mapa event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Mapa do evento</h2>
+                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ratione enim inventore cum voluptates odio minus nihil voluptate. Nulla, fugit quo minus sed nostrum amet? Cum odio consectetur nam totam?</p>
+            </div>
+            <img class="event__image" src="./images/img2.jpg">
+        </div>
+    </section>
+    <section class="event event--dia">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Dias</h2>
+                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ratione enim inventore cum voluptates odio minus nihil voluptate. Nulla, fugit quo minus sed nostrum amet? Cum odio consectetur nam totam?</p>
+            </div>
+            <img class="event__image" src="./images/img3.jpg">
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./scripts/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,17 @@
+.button{
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+
+    &--primary{
+        color: #000;
+        background-color: pink;
+    }
+
+    @media(max-width: 640px ){
+        display: block;
+        width: 100%;
+    }
+}

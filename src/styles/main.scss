@@ -1,3 +1,26 @@
-body {
-    background-color: aqua;
+@use 'hero';
+@use 'infos_bar';
+@use 'buttons';
+@use 'event';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+
+    @media (max-width: 640px){
+        max-width: 80px;
+    }
+
+    @media (max-width: 1014px){
+        max-width: 90%;
+    }
 }
